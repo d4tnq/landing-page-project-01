@@ -15,7 +15,7 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
-/* Common */
+/*========= Common =========*/
 
 a {
     text-decoration: none;
@@ -129,4 +129,33 @@ a {
     position: absolute;
     bottom: 0;
     right: calc((100vw - 1110px) / 2 - 100px);
+}
+
+/* ========= Clients =========*/
+
+.clients {
+    margin-top: 122px;
+}
+
+.clients .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.clients .desc {
+    color: #7d8589;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.25;
+}
+
+.clients .row-desc {
+    margin-top: 23px;
+}
+
+.clients .images {
+    margin-top: 96px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
