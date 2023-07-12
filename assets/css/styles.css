@@ -481,10 +481,7 @@ a {
     object-fit: cover;
     border-radius: 50%;
     margin-left: -3px;
-}
-
-.stats .avatar-group .default-avatar {
-    background-color: #1f3bb1;
+    background-color: var(--bg-color, #fff);
     color: #fff;
     text-align: center;
     font-size: 0.8rem;
@@ -492,4 +489,27 @@ a {
     line-height: normal;
     letter-spacing: -0.145px;
     line-height: 16px;
+}
+
+.stats .avatar-group .avatar:first-child {
+    margin-left: 0px;
+}
+
+.stats .row-qty {
+    margin-top: 110px;
+    justify-content: space-between;
+    padding: 0 32px;
+}
+
+.stats .qty {
+    color: #000;
+    font-size: 6.4rem;
+    font-weight: 600;
+}
+
+.stats .qty-desc {
+    color: #7b8087;
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-top: 22px;
 }
