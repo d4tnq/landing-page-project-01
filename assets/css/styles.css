@@ -15,6 +15,11 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
+html,
+body {
+    scroll-behavior: smooth;
+}
+
 /*========= Common =========*/
 
 a {
@@ -63,6 +68,7 @@ a {
 .hero-wrap {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     background: #e6f0ff;
     height: calc(100vh - 90px);
     position: relative;
@@ -106,14 +112,7 @@ a {
     border-radius: 8px;
 }
 
-.hero {
-    margin-top: 130px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.hero .sub-title {
+.hero-wrap .sub-title {
     color: #687690;
     font-size: 1.8rem;
     font-weight: 500;
@@ -121,7 +120,7 @@ a {
     line-height: normal;
 }
 
-.hero .title {
+.hero-wrap .title {
     margin-top: 8px;
     color: #000336;
     font-size: 6.2rem;
@@ -129,11 +128,11 @@ a {
     line-height: 1.19;
 }
 
-.hero .info {
+.hero-wrap .info {
     width: 50%;
 }
 
-.hero .desc {
+.hero-wrap .desc {
     margin: 30px 0;
     color: #5a6473;
     font-size: 1.8rem;
